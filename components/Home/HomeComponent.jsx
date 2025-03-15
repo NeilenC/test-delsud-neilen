@@ -3,7 +3,7 @@ import './homeStyles.css'
 const HomeComponent = () => {
   return (
     <div className='home-container'>
-      asdad
+      HomeComponents
     </div>
   )
 }
