@@ -1,0 +1,26 @@
+.section-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+}
+
+.section-cards-text {
+    padding-top: 90px;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 1.5;
+    width: 691px;
+}
+
+.section-cards-icon {
+    padding-block:60px;
+    width: 46px;
+    height: 46px;
+}
+
+
+.section-cards-title{
+    font-size: 35px;
+}

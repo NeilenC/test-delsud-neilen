@@ -1,11 +1,19 @@
-import React from 'react'
+import React from "react";
+import LanguagesOptions from "./LanguagesOptions/LanguagesOptions";
+import Logo from "../../commons/Logo/Logo";
+import "./navbarStyles.css";
+import NavbarItems from "./NavbarItems/NavbarItems";
 
 const NavbarComponent = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <div className="navbar-container">
+      <Logo color="var(--text-secondary)" />
 
-export default NavbarComponent
+      <NavbarItems />
+
+      <LanguagesOptions />
+    </div>
+  );
+};
+
+export default NavbarComponent;

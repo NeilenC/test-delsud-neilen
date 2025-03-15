@@ -7,6 +7,9 @@
   --background-buttons: #0AAA9D;
   --background-light: #0AAA9D4D;
   --background-dark: #212121;
+
+  
+  --tex-navbar-color: #666666;
 }
 
 body {
@@ -18,17 +21,12 @@ body {
   }
 }
 
-html,
-body {
-}
-
-body {
-}
 
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /* dislplay:flex; 
+  justify-content:center */
 }
 
 a {
@@ -38,6 +36,5 @@ a {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
   }
 }

@@ -1,0 +1,25 @@
+
+.logo-container {
+    justify-self: start;
+  }
+  
+  .items-container {
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    width: 185px;
+    gap: 19px;
+  
+  }
+  
+
+  .items-container p {
+    cursor: pointer; 
+    transition: color 0.3s ease;
+  }
+  
+  .items-container p:hover {
+    color: var(--text-secondary); 
+  }
+  
+  

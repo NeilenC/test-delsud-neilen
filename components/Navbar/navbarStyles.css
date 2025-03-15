@@ -1,0 +1,7 @@
+.navbar-container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  padding: 30px 222px;
+  color: var(--tex-navbar-color);
+
+}

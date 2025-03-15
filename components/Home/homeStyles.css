@@ -1,3 +1,23 @@
 .home-container {
-    background-color: var(--background-main);
+  height: 90vh;
+  background-image: url("/home/home-image.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.home-text-container {
+  width: 581px;
+  padding-left: 251px;
+  padding-top: 260px;
+}
+
+.home-text {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: "100%";
+}
+
+.home-text-secondary {
+  color: var(--text-secondary);
 }

@@ -1,0 +1,35 @@
+.languages-container {
+    display: flex;
+    font-size: 14px;
+
+    text-transform: uppercase;
+    justify-content: flex-end;
+    font-weight: 600;
+  }
+
+.languages-container p {
+    padding: 0 7px;
+    position: relative;
+  }
+  
+  .languages-container p:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    background: var(--tex-navbar-color);
+    right: -1px;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 15px;
+  }
+
+  .languages-container p {
+    cursor: pointer; 
+    transition: color 0.3s ease;
+  }
+  
+  .languages-container p:hover {
+    color: var(--text-secondary); 
+  }
+  
+  
