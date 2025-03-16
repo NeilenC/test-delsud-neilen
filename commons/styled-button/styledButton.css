@@ -1,0 +1,11 @@
+.primary-button {
+  background: var(--background-buttons);
+  color: var(--text-buttons);
+  border-radius: 27px;
+  padding: 13px 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.primary-button:hover {
+  background: var(--text-secondary);
+}

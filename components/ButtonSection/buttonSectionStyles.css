@@ -1,0 +1,25 @@
+.button-section-container {
+  height: 333px;
+  background-image: url("/pre-footer/bg-prefooter.jpeg");
+  background-position: center 10%;
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.button-section-flexbox {
+    display: flex;
+    direction: row;
+    gap: 60px
+}
+
+
+.button-section-text {
+    width: 627px;
+    color: white;
+    font-weight: 500;
+    font-size: 29px;
+}

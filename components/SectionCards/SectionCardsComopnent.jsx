@@ -1,6 +1,7 @@
 import React from "react";
 import TextColorStyled from "../../commons/TextColorStyled";
 import "./sectionCardsStyles.css";
+import CardsComponent from "../../commons/cards-component/CardsComponent";
 
 const SectionCardsComopnent = () => {
   return (
@@ -34,6 +35,10 @@ const SectionCardsComopnent = () => {
         </span>{" "}
         una sección{" "}
       </p>
+
+
+     <CardsComponent/>
+
     </div>
   );
 };
