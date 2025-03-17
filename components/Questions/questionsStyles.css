@@ -1,0 +1,11 @@
+.questions-component {
+  background: var(--background-main);
+  width: 100%;
+  padding-top: 88px;
+  padding-bottom:73px;
+  /* height: 920px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

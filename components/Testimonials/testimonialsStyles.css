@@ -1,0 +1,13 @@
+.testimonials-container {
+  padding-top: 70px;
+  padding-bottom: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-component-buttons{
+    display: flex;
+    gap: 15px;
+    padding-top: 30.48px;
+}

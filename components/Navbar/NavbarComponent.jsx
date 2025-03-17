@@ -1,6 +1,6 @@
 import React from "react";
 import LanguagesOptions from "./LanguagesOptions/LanguagesOptions";
-import Logo from "../../commons/Logo/Logo";
+import Logo from "../../commons/logo/Logo";
 import "./navbarStyles.css";
 import NavbarItems from "./NavbarItems/NavbarItems";
 

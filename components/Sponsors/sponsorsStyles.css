@@ -1,0 +1,7 @@
+.sponsors-container {
+    display:flex; 
+    flex-direction: column;
+    align-items:center;
+    background: var(--background-main);
+    height:426px;
+}
