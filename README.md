@@ -1,6 +1,6 @@
 # Landing Page - Grupo Delsud
 
-Este proyecto es una landing page para el Grupo Delsud, diseñada para proporcionar información clave sobre la empresa y sus servicios.
+
 
 ### Link al Deploy:
  https://neilen-delsud.vercel.app/
