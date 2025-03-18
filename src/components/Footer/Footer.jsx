@@ -21,9 +21,29 @@ const Footer = () => {
           <h3>Contacto</h3>
           <p>@ correo@empresa.com</p>
           <div className="icons-container">
-            <IconButton icon={"/footer/instagram-icon.png"} type="outlined" />
-            <IconButton icon={"/footer/linkedin-icon.png"} type="outlined" />
-            <IconButton icon={"/footer/x-icon.png"} type="outlined" />
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconButton icon={"/footer/instagram-icon.png"} type="outlined" />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconButton icon={"/footer/linkedin-icon.png"} type="outlined" />
+            </a>
+
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconButton icon={"/footer/x-icon.png"} type="outlined" />
+            </a>
           </div>
         </div>
       </div>
