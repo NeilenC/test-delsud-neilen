@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react";
 import { sponsors } from "../../utils/testArrays";
-import "./carouselStyles.css";
 
 const CarouselSponsors = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

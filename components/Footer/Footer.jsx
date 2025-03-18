@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../../commons/logo/Logo";
 import IconButton from "../../commons/styled-icon-button/IconButton";
-import "./footerStyles.css";
 
 const Footer = () => {
   return (

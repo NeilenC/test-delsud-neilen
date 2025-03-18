@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { testimonials } from "../../utils/testArrays";
 import IconButton from "../styled-icon-button/IconButton";
 import { useClient } from "../../context/IsClientContext";
-import "./testimonialCard.css";
+
 
 const TestimonialCard = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

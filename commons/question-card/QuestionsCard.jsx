@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import IconButton from "../styled-icon-button/IconButton";
-import "./questionCard.css";
 
 const QuestionsCard = ({ questionsAndAnswers }) => {
   const [openAnswer, setOpenAnswer] = useState(null);

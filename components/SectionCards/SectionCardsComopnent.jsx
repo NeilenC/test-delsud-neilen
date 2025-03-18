@@ -1,7 +1,6 @@
 import React from "react";
 import CardsComponent from "../../commons/cards-component/CardsComponent";
 import SectionTitle from "../../commons/section-title/SectionTitle";
-import "./sectionCardsStyles.css";
 
 const SectionCardsComopnent = () => {
   return (

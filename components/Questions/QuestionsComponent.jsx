@@ -2,7 +2,6 @@ import React from "react";
 import SectionTitle from "../../commons/section-title/SectionTitle";
 import QuestionsCard from "../../commons/question-card/QuestionsCard";
 import { questionsAndAnswers } from "../../utils/testArrays";
-import './questionsStyles.css'
 
 const QuestionsComponent = () => {
   

@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Logo from "../../commons/logo/Logo";
 import NavbarItems from "./NavbarItems/NavbarItems";
 import LanguagesOptions from "./LanguagesOptions/LanguagesOptions";
-import "./navbarStyles.css";
 
 const NavbarComponent = () => {
   const [isMobile, setIsMobile] = useState(false);

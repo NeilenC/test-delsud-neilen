@@ -1,5 +1,4 @@
 import React from "react";
-import './languagesStyles.css'
 
 const LanguagesOptions = () => {
   return (

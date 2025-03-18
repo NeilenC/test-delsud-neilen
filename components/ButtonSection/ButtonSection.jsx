@@ -1,6 +1,6 @@
 import React from "react";
-import StyledButton from "../../commons/styled-button/StyledButton";
-import "./buttonSectionStyles.css";
+import StyledButton from "../../commons/styled-button/StyledButton.jsx";
+
 
 const ButtonSection = () => {
   return (

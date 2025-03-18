@@ -1,5 +1,4 @@
 import React from 'react'
-import './styledButton.css'
 
 const StyledButton = ({children}) => {
   return (

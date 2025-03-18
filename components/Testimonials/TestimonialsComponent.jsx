@@ -2,7 +2,6 @@
 import React from "react";
 import SectionTitle from "../../commons/section-title/SectionTitle";
 import TestimonialCard from "../../commons/testimonial-card/TestimonialCard";
-import "./testimonialsStyles.css";
 
 const TestimonialsComponent = () => {
 
