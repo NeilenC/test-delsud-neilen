@@ -1,0 +1,33 @@
+.carousel-sponsors-container {
+    width: 100%;
+    padding-top: 88px;
+    overflow: hidden;
+  }
+  
+  .carousel-content {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    padding-inline: 48px;
+    width: max-content;
+    animation: scroll 250s linear infinite;
+  }
+  
+  .carousel-sponsors-content {
+    width: max-content;
+    position: relative;
+  }
+  
+  .carousel-sponsors-content img {
+    width: 145px;
+    height: 23.35px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
