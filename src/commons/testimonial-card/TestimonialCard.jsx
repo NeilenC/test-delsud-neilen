@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { testimonials } from "../../utils/testArrays";
+import { testimonials } from "../../../utils/testArrays";
 import IconButton from "../styled-icon-button/IconButton";
-import { useClient } from "../../context/IsClientContext";
+import { useClient } from "../../../context/IsClientContext";
 
 
 const TestimonialCard = () => {

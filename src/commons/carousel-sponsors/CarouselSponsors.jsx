@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from "react";
-import { sponsors } from "../../utils/testArrays";
+import { sponsors } from "../../../utils/testArrays";
 
 const CarouselSponsors = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
