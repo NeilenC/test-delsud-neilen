@@ -1,7 +1,26 @@
 .navbar-container {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  padding: 30px 222px;
+  grid-template-columns: 5fr 1fr 2fr;
+  padding: 30px;
+  padding-left: 222px;
   color: var(--tex-navbar-color);
+  
+  justify-items: center; 
+  align-items: center;  
+}
 
+
+@media (max-width: 770px) {
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 26px;
+    padding-left: 23px;
+    padding-right: 17px;
+  }
+
+  .menu-icon {
+    width: 24px; 
+  }
 }

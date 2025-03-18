@@ -4,7 +4,7 @@ import "./iconButton.css";
 const IconButton = ({
   icon,
   type = "filled",
-  color = "#6200ea",
+  color = "var(--text-footer)",
   onClick,
   size = 48,
   iconW,

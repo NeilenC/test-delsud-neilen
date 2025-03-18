@@ -27,3 +27,21 @@
     font-weight: 500;
     font-size: 29px;
 }
+
+
+@media (max-width: 770px) {
+    .button-section-flexbox {
+        padding-inline: 20px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-section-text {
+        width:360px;
+        font-size: 22px;
+        text-align:center;
+        padding-bottom: 27px;
+    }
+    
+}

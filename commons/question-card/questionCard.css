@@ -43,3 +43,22 @@
     font-size: 16px;
     color: var(--text-primary);
   }
+
+  @media (max-width: 770px) {
+    .question-card {
+     max-width: 380px
+  }
+
+  .question-card-answer-container {
+    height: 226px;
+    max-width: 380px
+
+  }
+  .question-card-answer {
+    font-size: 12.06px;
+    padding-inline: 26px;
+    line-height: 1.5;
+  }
+
+  
+  }

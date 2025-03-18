@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import SectionTitle from '../../commons/section-title/SectionTitle'
 import CarouselSponsors from '../../commons/carousel-sponsors/CarouselSponsors'

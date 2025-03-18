@@ -9,3 +9,10 @@
 .primary-button:hover {
   background: var(--text-secondary);
 }
+
+@media (max-width: 770px) {
+  .primary-button {
+    padding: 9px 19px;
+    font-size: 14px;
+  }
+}

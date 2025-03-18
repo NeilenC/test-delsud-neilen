@@ -26,3 +26,12 @@
   font-weight: 700;
   padding-block: 22px;
 }
+
+
+@media (max-width: 770px) {
+  .card-component-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ }

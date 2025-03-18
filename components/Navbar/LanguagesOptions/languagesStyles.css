@@ -15,12 +15,11 @@
   .languages-container p:not(:last-child)::after {
     content: "";
     position: absolute;
-    top: 40%;
     background: var(--tex-navbar-color);
     right: -1px;
-    transform: translateY(-50%);
+    transform: translateY(25%);
     width: 1px;
-    height: 15px;
+    height: 13px;
   }
 
   .languages-container p {

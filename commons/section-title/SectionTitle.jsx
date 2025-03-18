@@ -1,18 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const SectionTitle = ({ title, wordIndex }) => {
+  // const [fontSize, setFontSize] = useState(window.innerWidth <= 770 ? '28px' : '35px');
   const words = title.split(' ');
   const adjustedIndex = wordIndex - 1;
 
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setFontSize(window.innerWidth <= 770 ? '28px' : '35px');
+  //   };
+
+  //   window.addEventListener('resize', handleResize);
+
+  //   return () => {
+  //     window.removeEventListener('resize', handleResize);
+  //   };
+  // }, []);
+
   return (
-    <h2>
+    <h2 
+    // style={{ fontSize }}
+    >
       {words.map((word, i) => (
         <span
           key={i}
-          style={{ 
-            color: i === adjustedIndex ? 'var(--text-secondary)' : 'var(--text-color)', 
-            fontWeight: i === adjustedIndex ? 800 : 400, 
-            marginRight: '5px' 
+          style={{
+            color: i === adjustedIndex ? 'var(--text-secondary)' : 'var(--text-color)',
+            fontWeight: i === adjustedIndex ? 800 : 400,
+            marginRight: '5px',
           }}
         >
           {word}

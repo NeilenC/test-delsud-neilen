@@ -1,11 +1,35 @@
-import React from 'react'
+import React from "react";
+import Logo from "../../commons/logo/Logo";
+import IconButton from "../../commons/styled-icon-button/IconButton";
+import "./footerStyles.css";
 
 const Footer = () => {
   return (
-    <div>
-     Footer
-    </div>
-  )
-}
+    <div className="footer-container">
+      <div className="footer-content">
+        <div className="footer-logo">
+          <Logo color="var(--text-footer)" />
+        </div>
 
-export default Footer
+        <div className="footer-menu-items">
+          <h3>Menu</h3>
+          <p> Item 1</p>
+          <p>Item 2</p>
+          <p>Item 3</p>
+        </div>
+
+        <div className="footer-menu-contact">
+          <h3>Contacto</h3>
+          <p>@ correo@empresa.com</p>
+          <div className="icons-container">
+            <IconButton icon={"/footer/instagram-icon.png"} type="outlined" />
+            <IconButton icon={"/footer/linkedin-icon.png"} type="outlined" />
+            <IconButton icon={"/footer/x-icon.png"} type="outlined" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;

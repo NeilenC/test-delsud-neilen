@@ -38,6 +38,19 @@
   width: 234px;
   font-weight: 400;
   font-size: 13.82px;
-  line-height: 150%;
+  line-height: 1.5;
   padding-top: 23px;
+}
+
+.testimonials-component-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 30.48px;
+}
+
+@media (max-width: 840px) {
+  .testimonial-card-container {
+    height: 374.51;
+  }
 }

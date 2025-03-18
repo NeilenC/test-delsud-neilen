@@ -31,3 +31,19 @@
       transform: translateX(-50%);
     }
   }
+
+
+  @media (max-width: 770px) {
+    .carousel-arrow {
+      display: block;
+    }
+  
+    .carousel-content {
+      margin:auto;
+      padding-inline:10px;
+      gap: 41px;
+      animation: none;
+    }
+
+
+  }
