@@ -30,6 +30,8 @@
 
 @media (max-width: 770px) {
   .card-component-container {
+  padding-block: 75px;
+
     display: flex;
     flex-direction: column;
   }

@@ -6,8 +6,16 @@
   align-items: center;
 }
 
-.testimonials-component-buttons{
-    display: flex;
-    gap: 15px;
-    padding-top: 30.48px;
+.testimonials-component-buttons {
+  display: flex;
+  gap: 15px;
+  padding-top: 30.48px;
+}
+
+@media (max-width: 770px) {
+  .testimonials-container {
+    padding-top: 55px;
+
+    padding-bottom: 76px;
+  }
 }

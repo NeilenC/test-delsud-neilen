@@ -2,17 +2,25 @@
   background: var(--background-buttons);
   color: var(--text-buttons);
   border-radius: 27px;
-  padding: 13px 30px;
+  min-width: 246px;
+  min-height: 54px;
+
+  /* padding: 13px 30px; */
   font-size: 20px;
   cursor: pointer;
+  border: none;
 }
+
 .primary-button:hover {
   background: var(--text-secondary);
 }
 
 @media (max-width: 770px) {
   .primary-button {
-    padding: 9px 19px;
+    min-width: 173px;
+    min-height: 38px;
+    /* padding: 9px 19px; */
     font-size: 14px;
+    border: none;
   }
 }

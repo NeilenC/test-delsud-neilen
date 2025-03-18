@@ -1,47 +1,47 @@
-
-  .button-section-container {
-    height: 333px;
-    background-image: url("/mask-group.png");
-    /* background-image: url("/pre-footer/bg-prefooter.jpeg"); */
-    background-position: center 30%; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
+.button-section-container {
+  height: 333px;
+  background-image: url("/mask-group.png");
+  /* background-image: url("/pre-footer/bg-prefooter.jpeg"); */
+  background-position: center 30%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-section-flexbox {
-    width: 100%;
-    padding-inline: 255px; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
 }
-
 
 .button-section-text {
-    width: 600px;
-    color: white;
-    font-weight: 500;
-    font-size: 29px;
+  width: 600px;
+  color: white;
+  font-weight: 500;
+  font-size: 29px;
 }
 
-
 @media (max-width: 770px) {
-    .button-section-flexbox {
-        padding-inline: 20px; 
+    .button-section-container {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+        background-position: 40% center;
+      }
 
-    .button-section-text {
-        width:360px;
-        font-size: 22px;
-        text-align:center;
-        padding-bottom: 27px;
-    }
-    
+      
+  .button-section-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .button-section-text {
+    width: 320px;
+    font-size: 22px;
+    text-align: center;
+  }
 }

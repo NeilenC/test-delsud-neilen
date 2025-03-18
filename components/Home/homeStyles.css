@@ -1,19 +1,20 @@
 .home-container {
-  height: 691px;
-  background-image: url("/home/home-image.png");
-  background-size: 85%; 
-  position: relative; 
-  background-position:  center;
+  height: 90vh;
+  background-image: url("/home/background-image.png");
+  background-size: cover;
+  position: relative;
+  background-position: center;
 }
 
 .home-text {
   width: 581px;
   left: 219px;
-  bottom: 154px; 
+  bottom: 154px;
   color: #ffffff;
   font-size: 40px;
   font-weight: 700;
-  position: absolute; 
+  position: absolute;
+  line-height: 1.5
 }
 
 .home-text-secondary {
@@ -24,6 +25,7 @@
   .home-container {
     height: 425px;
     display: flex;
+
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -35,7 +37,7 @@
     font-size: 26px;
     font-weight: 700;
     text-align: center;
-    position: static; 
+    position: static;
     padding-top: 0;
     padding-left: 0;
   }

@@ -50,7 +50,11 @@
 }
 
 @media (max-width: 840px) {
+
   .testimonial-card-container {
+    padding-top: 49px;
     height: 374.51;
   }
+
+
 }

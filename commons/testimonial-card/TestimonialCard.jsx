@@ -1,40 +1,37 @@
 import React, { useState, useEffect } from "react";
 import { testimonials } from "../../utils/testArrays";
 import IconButton from "../styled-icon-button/IconButton";
+import { useClient } from "../../context/IsClientContext";
 import "./testimonialCard.css";
 
 const TestimonialCard = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsPerView, setCardsPerView] = useState(3);
-  const [isClient, setIsClient] = useState(false); 
+  const { isClient } = useClient(); 
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      setIsClient(true); 
-      const handleResize = () => {
-        setCardsPerView(window.innerWidth <= 840 ? 1 : 3); 
-      };
+    const handleResize = () => {
+      setCardsPerView(window.innerWidth <= 840 ? 1 : 3);
+    };
 
-      handleResize(); 
+    handleResize();
 
-      window.addEventListener("resize", handleResize); 
+    window.addEventListener("resize", handleResize);
 
-      return () => {
-        window.removeEventListener("resize", handleResize);
-      };
-    }
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   const handlePrev = () => {
-    setCurrentIndex(prevIndex => Math.max(prevIndex - cardsPerView, 0)); 
+    setCurrentIndex(prevIndex => Math.max(prevIndex - cardsPerView, 0));
   };
 
   const handleNext = () => {
-    setCurrentIndex(prevIndex => Math.min(prevIndex + cardsPerView, testimonials.length - cardsPerView)); 
+    setCurrentIndex(prevIndex => Math.min(prevIndex + cardsPerView, testimonials.length - cardsPerView));
   };
 
   const visibleTestimonials = testimonials.slice(currentIndex, currentIndex + cardsPerView);
-
 
   if (!isClient) {
     return null;
