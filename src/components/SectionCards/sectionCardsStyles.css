@@ -1,44 +1,46 @@
 .section-cards-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.section-cards-text {
-  padding-top: 90px;
-  font-weight: 400;
-  font-size: 29px;
-  line-height: 1.5;
-  width: 691px;
-  margin: 0 auto;
-}
-
-.section-cards-icon {
-  padding-block: 60px;
-  width: 46px;
-  height: 46px;
-}
-
-.section-cards-title {
-  font-size: 35px;
-}
-
-@media (max-width: 770px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+  }
+  
   .section-cards-text {
-    font-size: 15px;
-    width: 296px;
-    padding-top: 50px;
+    padding-top: 90px;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 1.5;
+    width: 691px;
+    margin: 0 auto; 
   }
-
+  
   .section-cards-icon {
-    padding-block: 30px;
-    width: 23.92px;
-    height: 23.92px;
+    padding-block: 60px;
+    width: 46px;
+    height: 46px;
   }
-
+  
   .section-cards-title {
-    font-size: 28px;
+    font-size: 35px;
   }
-}
+  
+  @media (max-width: 770px) {
+    .section-cards-text {
+      
+      font-size: 15px; 
+      width: 296px; 
+      padding-top: 50px;
+    }
+  
+    .section-cards-icon {
+      padding-block: 30px; 
+      width: 23.92px; 
+      height: 23.92px; 
+    }
+  
+    .section-cards-title {
+      font-size: 28px; 
+    }
+  }
+  

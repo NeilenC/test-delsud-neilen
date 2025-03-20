@@ -9,7 +9,7 @@
 
 .navbar-items-container {
   display: flex;
-  width: 980px;
+  width: 72%;
   justify-content: space-between;
   align-items: center;
 }
@@ -22,11 +22,13 @@
 
 @media (max-width: 770px) {
   .navbar-container {
+    
     display: flex;
     justify-content: space-between;
   }
-
+  
   .navbar-items-container {
+    width: 100%;
     padding-inline: 24px;
   }
 

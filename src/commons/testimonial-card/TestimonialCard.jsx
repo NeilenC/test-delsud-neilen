@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { testimonials } from "../../../utils/testArrays";
 import IconButton from "../styled-icon-button/IconButton";
 import { useClient } from "../../../context/IsClientContext";
+import Image from "next/image";
 
 
 const TestimonialCard = () => {
@@ -42,7 +43,8 @@ const TestimonialCard = () => {
       <div className="testimonial-card-container">
         {visibleTestimonials.map((testimonial, index) => (
           <div className="testimonial-card-content" key={index}>
-            <img src={testimonial.img} alt={testimonial.name} />
+            <Image src={testimonial.img} alt={testimonial.name} width={54} height={54}
+            className="testimonial-card-image"/>
             <p className="testimonial-card-name">{testimonial.name}</p>
             <p className="testimonial-card-company">{testimonial.company}</p>
             <p className="testimonial-text">{testimonial.testimonial}</p>
