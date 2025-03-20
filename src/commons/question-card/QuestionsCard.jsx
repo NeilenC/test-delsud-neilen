@@ -17,7 +17,7 @@ const QuestionsCard = ({ questionsAndAnswers }) => {
               <p>{options.question}</p>
               <div className="question-card-button">
                 <IconButton
-                  icon="/arrow-down.png"
+                  icon="/arrow-down.WebP"
                   type="filled"
                   color="var(--background-icon-button-light)"
                   onClick={() => handleToggleAnswer(index)}

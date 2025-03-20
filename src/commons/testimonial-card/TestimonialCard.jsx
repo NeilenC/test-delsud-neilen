@@ -52,7 +52,7 @@ const TestimonialCard = () => {
 
       <div className="testimonials-component-buttons">
         <IconButton
-          icon={"/arrow-back.png"}
+          icon={"/arrow-back.WebP"}
           iconH={14}
           iconW={12}
           onClick={handlePrev}
@@ -60,7 +60,7 @@ const TestimonialCard = () => {
           color="var(--background-buttons)"
         />
         <IconButton
-          icon={"/arrow.png"}
+          icon={"/arrow.WebP"}
           iconH={14}
           iconW={12}
           onClick={handleNext}

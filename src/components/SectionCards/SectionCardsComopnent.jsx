@@ -26,7 +26,7 @@ const SectionCardsComopnent = () => {
 
       <img
         className="section-cards-icon"
-        src="/dna-vector.png"
+        src="/dna-vector.WebP"
         alt="dna-vector"
       />
 

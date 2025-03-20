@@ -1,7 +1,6 @@
 .languages-container {
     display: flex;
     font-size: 14px;
-
     text-transform: uppercase;
     justify-content: flex-end;
     font-weight: 600;
@@ -15,16 +14,18 @@
   .languages-container p:not(:last-child)::after {
     content: "";
     position: absolute;
-    background: var(--tex-navbar-color);
+    background: var(--text-navbar);
     right: -1px;
     transform: translateY(25%);
     width: 1px;
     height: 13px;
+    
   }
 
   .languages-container p {
     cursor: pointer; 
     transition: color 0.3s ease;
+    color: var(--text-navbar)
   }
   
   .languages-container p:hover {

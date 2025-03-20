@@ -19,22 +19,21 @@ const NavbarComponent = () => {
 
   return (
     <div className="navbar-container">
-      <Logo color="var(--text-secondary)" />
+      <div className="navbar-items-container">
 
-      {isMobile ? (
+  <Logo color="var(--text-secondary)" />
 
-        <img
-          src="/menu-icon.png"
-          alt="Menú"
-          className="menu-icon"
-          />
-      ) : (
-        <>
-          <NavbarItems />
-          <LanguagesOptions />
-        </>
-      )}
+  {isMobile ? (
+    <img src="/menu-icon.png" alt="Menú" className="menu-icon" />
+  ) : (
+    <div className="navbar-items">
+      <NavbarItems />
+      <LanguagesOptions />
     </div>
+  )}
+  </div>
+</div>
+
   );
 };
 
