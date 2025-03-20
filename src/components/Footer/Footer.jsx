@@ -26,7 +26,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <IconButton icon={"/footer/instagram-icon.png"} type="outlined" />
+              <IconButton icon={"/footer/instagram-icon.jpg"} type="outlined" />
             </a>
 
             <a
@@ -34,7 +34,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <IconButton icon={"/footer/linkedin-icon.png"} type="outlined" />
+              <IconButton icon={"/footer/linkedin-icon.jpg "} type="outlined" />
             </a>
 
             <a
@@ -42,7 +42,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <IconButton icon={"/footer/x-icon.png"} type="outlined" />
+              <IconButton icon={"/footer/x-icon.jpg"} type="outlined" />
             </a>
           </div>
         </div>

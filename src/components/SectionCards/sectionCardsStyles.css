@@ -12,7 +12,7 @@
     font-size: 29px;
     line-height: 1.5;
     width: 691px;
-    margin: 0 20px; 
+    margin: 0 auto; 
   }
   
   .section-cards-icon {
@@ -27,6 +27,7 @@
   
   @media (max-width: 770px) {
     .section-cards-text {
+      
       font-size: 15px; 
       width: 296px; 
       padding-top: 50px;

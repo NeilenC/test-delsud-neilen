@@ -11,11 +11,10 @@
   max-height: 374.51;
   border-radius: 12px;
   box-shadow: 0px 4.15px 11.06px #0000001a;
+
 }
 
-.testimonial-card-content img {
-  width: 54px;
-  height: 54px;
+.testimonial-card-image {
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
@@ -52,9 +51,22 @@
 @media (max-width: 840px) {
 
   .testimonial-card-container {
+    width: 252.77px;
     padding-top: 49px;
-    height: 374.51;
+    margin: 0 auto;
+    display: flex; 
+    justify-content:center;
   }
-
-
+  
+  
+  .testimonial-card-content {
+    height: 294px;
+    padding-bottom: 0
+  }
+  
+  .testimonial-text {
+    width: 184px;
+    font-size: 10.85px;
+    margin: 0 auto;
+  }
 }

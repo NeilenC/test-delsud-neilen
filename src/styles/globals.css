@@ -1,9 +1,10 @@
 :root {
   --background-main: #FAFAFA;
+  --background-light: #FAFAFA;
   --text-color: #0E0E0E;
   --text-secondary: #0AAA9D;
   
-  --background-secondary: #FFFFFF;
+  --text-navbar: #666666;
   --text-buttons: #FFFFFF;
   --text-footer: #FFFFFF;
   --background-buttons: #0AAA9D;

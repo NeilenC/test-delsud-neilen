@@ -1,26 +1,38 @@
 .navbar-container {
-  display: grid;
-  grid-template-columns: 5fr 1fr 2fr;
-  padding: 30px;
-  padding-left: 222px;
-  color: var(--tex-navbar-color);
-  
-  justify-items: center; 
-  align-items: center;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 87px;
+  background: var(--background-light);
+  width: 100%;
 }
 
+.navbar-items-container {
+  display: flex;
+  width: 72%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+  gap: 97px;
+}
 
 @media (max-width: 770px) {
   .navbar-container {
+    
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding-block: 26px;
-    padding-left: 23px;
-    padding-right: 17px;
+  }
+  
+  .navbar-items-container {
+    width: 100%;
+    padding-inline: 24px;
   }
 
   .menu-icon {
-    width: 24px; 
+    width: 24px;
   }
 }

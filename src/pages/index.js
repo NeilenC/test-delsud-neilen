@@ -22,7 +22,6 @@ const Home = () => {
 
   return (
     <div>
-      <NavbarComponent />
       <HomeComponent />
       <SectionCardsComopnent />
       <Sponsors/>

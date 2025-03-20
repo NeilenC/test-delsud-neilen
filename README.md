@@ -1,7 +1,9 @@
 # Landing Page - Grupo Delsud
 
-Este proyecto es una landing page para el Grupo Delsud, diseñada para proporcionar información clave sobre la empresa y sus servicios.
 
+
+### Link al Deploy:
+ https://neilen-delsud.vercel.app/
 
 
 ## Pasos para correr el proyecto - Aplica estos comandos en tu terminal:
@@ -27,6 +29,8 @@ npm install
 ### 4. Inicia el servidor de desarrollo
 
 npm run dev
+
+
 
 
 

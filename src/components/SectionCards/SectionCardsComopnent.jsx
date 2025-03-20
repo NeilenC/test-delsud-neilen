@@ -5,6 +5,7 @@ import SectionTitle from "../../commons/section-title/SectionTitle";
 const SectionCardsComopnent = () => {
   return (
     <div className="section-cards-container">
+
       <p className="section-cards-text">
         {/* <TextColorStyled color={'var(--text-secondary)'} >Lorem ipsum dolor sit amet consectetur</TextColorStyled> */}
         <span style={{ color: "var(--text-secondary)", fontWeight: 800 }}>
@@ -26,7 +27,7 @@ const SectionCardsComopnent = () => {
 
       <img
         className="section-cards-icon"
-        src="/dna-vector.png"
+        src="/dna-vector.WebP"
         alt="dna-vector"
       />
 
