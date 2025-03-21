@@ -6,8 +6,24 @@ const SectionCardsComopnent = () => {
   return (
     <div className="section-cards-container">
 
-      <p className="section-cards-text">
-        {/* <TextColorStyled color={'var(--text-secondary)'} >Lorem ipsum dolor sit amet consectetur</TextColorStyled> */}
+<p className="section-cards-text">
+        <span style={{ color: "var(--text-secondary)", fontWeight: 800 }}>
+          {" "}
+          La combinación de genética e inteligencia artificial {" "}
+        </span>
+        mejora los cultivos, 
+        <span style={{ color: "var(--text-color)", fontWeight: 800 }}>
+          {" "}
+          optimiza recursos,{" "}
+        </span>
+        reduce el impacto ambiental 
+        <span style={{ color: "var(--text-secondary)", fontWeight: 800 }}>
+          {" "}
+          y promueve una agricultura más eficiente y sostenible.
+        </span>
+      </p> 
+
+      {/* <p className="section-cards-text">
         <span style={{ color: "var(--text-secondary)", fontWeight: 800 }}>
           {" "}
           Lorem ipsum dolor sit amet consectetur{" "}
@@ -23,7 +39,7 @@ const SectionCardsComopnent = () => {
           {" "}
           risus platea nulla diam id dis..
         </span>
-      </p>
+      </p> */}
 
       <img
         className="section-cards-icon"
@@ -31,7 +47,7 @@ const SectionCardsComopnent = () => {
         alt="dna-vector"
       />
 
-      <SectionTitle title={"Esto titula una sección"} wordIndex={2} />
+      <SectionTitle title={"Una respuesta para cada desafío."} wordIndex={2} />
 
       <CardsComponent />
     </div>

@@ -4,15 +4,15 @@ const CardsComponent = () => {
   const cardsContent = [
     {
       image: "/cards/card1.jpeg",
-      title: "Card 1",
+      title: "Sostenibilidad",
     },
     {
       image: "/cards/card2.jpeg",
-      title: "Card 2",
+      title: "Investigación",
     },
     {
       image: "/cards/card3.jpeg",
-      title: "Card 3",
+      title: "Productividad",
     },
   ];
   return (

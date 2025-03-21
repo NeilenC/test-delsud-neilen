@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "../../commons/logo/Logo";
 import IconButton from "../../commons/styled-icon-button/IconButton";
+import MenuItems  from "../../commons/menu-items/MenuItems";
+import { navbarItems } from "../../../utils/testArrays";
 
 const Footer = () => {
   return (
@@ -10,11 +12,10 @@ const Footer = () => {
           <Logo color="var(--text-footer)" />
         </div>
 
-        <div className="footer-menu-items">
+        <div className="footer-menu-title">
           <h3>Menu</h3>
-          <p> Item 1</p>
-          <p>Item 2</p>
-          <p>Item 3</p>
+          <MenuItems  items={navbarItems} isFooter={true}/>
+
         </div>
 
         <div className="footer-menu-contact">

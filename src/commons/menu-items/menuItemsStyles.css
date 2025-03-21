@@ -1,0 +1,56 @@
+.logo-container {
+  justify-self: start;
+}
+
+.items-container {
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+  width: 185px;
+  gap: 30px;
+  color: var(--text-navbar);
+}
+
+.navbar-link {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: var(--text-navbar);
+}
+
+.navbar-link:hover {
+  color: var(--text-secondary);
+}
+
+/* Estos estilos son específicos para el footer => */
+.footer-style {
+  display: flex; 
+  align-items: flex-start !important; 
+  gap: 17px;
+}
+
+.footer-style  .navbar-link {
+  color: white !important;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* <= footer */
+
+@media (max-width: 770px) {
+  .items-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    padding-bottom: 17px;
+  }
+
+  .navbar-link {
+    color: var(--text-navbar);
+    padding-right: 30px;
+  }
+
+  .footer-style .navbar-link {
+    font-size: 14px;
+  }
+}

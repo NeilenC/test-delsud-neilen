@@ -9,11 +9,13 @@
   font-size: 20px;
   cursor: pointer;
   border: none;
+  transition:  0.2s ease, transform 0.2s ease;
 }
 
 .primary-button:hover {
-  background: var(--text-secondary);
+  background: var(--background-icon-button-light);
 }
+
 
 @media (max-width: 770px) {
   .primary-button {

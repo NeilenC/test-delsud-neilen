@@ -24,12 +24,12 @@
 }
 
 .question-card-button {
+  align-content:center;
   padding-right: 19px;
 }
 
 .question-card-answer-container {
-    height: 226px;
-    width: 680px;
+    max-width: 680px;
     box-shadow: 0px 4.15px 11.06px #0000001a;
     border-radius: 0px 0px 12px 12px;
     display: flex;
@@ -38,6 +38,7 @@
   }
   
   .question-card-answer {
+    padding: 39px 44px;
     font-weight: 300;
     width: 592px;
     font-size: 16px;
@@ -46,23 +47,28 @@
 
   @media (max-width: 770px) {
     .question-card-container {
-      padding-top: 74px
+      padding-top: 74px;
   }
   
     .question-card {
-     max-width: 380px
+     max-width: 380px;
+     line-height:1
+
   }
 
   .question-card-answer-container {
-    height: 224px;
-    max-width: 380px
+    max-width: 380px;
+
 
   }
   .question-card-answer {
+    padding: 26px;
     font-size: 12.06px;
-    padding-inline: 26px;
-    line-height: 1.5;
+    line-height: 1;
   }
 
+  .question-card-question p {
+    width: 270px;
+  }
   
   }

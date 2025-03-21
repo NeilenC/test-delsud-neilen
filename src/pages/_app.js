@@ -13,7 +13,7 @@ import '../commons/styled-icon-button/iconButton.css'
 
 
 import '../components/Navbar/navbarStyles.css'
-import '../components/Navbar/NavbarItems/navbarItemsStyles.css'
+import '../commons/menu-items/menuItemsStyles.css'
 import '../components/Navbar/LanguagesOptions/languagesStyles.css'
 import '../components/Navbar/LanguagesOptions/languagesStyles.css'
 import '../components/Home/homeStyles.css'

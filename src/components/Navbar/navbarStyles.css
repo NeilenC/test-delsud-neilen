@@ -22,17 +22,26 @@
 
 @media (max-width: 770px) {
   .navbar-container {
-    
     display: flex;
     justify-content: space-between;
   }
-  
+
   .navbar-items-container {
+    display:flex;
     width: 100%;
     padding-inline: 24px;
+    
   }
 
-  .menu-icon {
+  .navbar-menu-icon {
     width: 24px;
+  }
+
+  .navbar-mobile-menu {
+    top: 71px;
+    background: var(--background-light);
+    position: absolute;
+    left: 0;
+    width: 100%;
   }
 }

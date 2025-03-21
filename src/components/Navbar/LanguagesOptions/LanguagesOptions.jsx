@@ -1,14 +1,12 @@
 import React from "react";
 
-const LanguagesOptions = () => {
+const LanguagesOptions = ({ languages }) => {
   return (
-    <>
     <div className="languages-container">
-      <p>es</p>
-      <p>en</p>
-      <p>br</p>
+      {languages.map((lang, index) => (
+        <p key={index}>{lang}</p>
+      ))}
     </div>
-    </>
   );
 };
 
