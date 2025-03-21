@@ -15,7 +15,6 @@
   cursor: pointer;
   transition: color 0.3s ease;
   color: var(--text-navbar);
-  padding-right:30px;
 }
 
 .navbar-link:hover {
@@ -59,4 +58,8 @@
     font-weight: 400;
   }
   
+  .navbar-link{
+  padding-right:30px;
+
+  }
 }
